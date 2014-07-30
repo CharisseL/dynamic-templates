@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Six+Caps);
+
+body{
+  font-family: 'Audiowide', sans-serif;
+  font-size: 13px;
+  border: 10px double blue;
+}
+
+body{
+  font-family: 'Bangers', sans-serif;
+  font-size: 13px;
+  border: 10px double blue;
+}
+
+body{
+  font-family: 'Six Caps', sans-serif;
+  font-size: 13px;
+  border: 10px double blue;
+}

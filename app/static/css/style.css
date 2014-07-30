@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Six+Caps);
+
+tr.tr1 td.td1 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+
+tr.tr0 td.td1 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+tr.tr1 td.td0 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+tr.tr0 td.td0 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+
+/* select squares with black pieces*/
+tr:nth-of-type(2n + 6) td.td0 {
+  background-image: url('/images/blue.png');
+  background-size: cover;
+}
+
+tr:nth-of-type(7) td.td1 {
+  background-image: url('/images/blue.png');
+  background-size: cover;
+}
+
+/* select squares with red pieces*/
+tr:nth-last-of-type(2n + 6) td.td1 {
+  background-image: url('/images/red.png');
+  background-size: cover;
+}
+
+tr:nth-last-of-type(7) td.td0 {
+  background-image: url('/images/red.png');
+  background-size: cover;
+}
