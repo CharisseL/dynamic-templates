@@ -1,0 +1,43 @@
+table td{
+  height: 64px;
+  width: 64 px;
+}
+
+table td:last-of-type{
+  text-align: center;
+  font-size: 25px;
+}
+
+table td:last-of-type span{
+  color: green;
+}
+
+.r1{
+  background-image: url("/images/d1.png");
+  background-size: cover;
+}
+
+.r2{
+  background-image: url("/images/d2.png");
+  background-size: cover;
+}
+
+.r3{
+  background-image: url("/images/d3.png");
+  background-size: cover;
+}
+
+.r4{
+  background-image: url("/images/d4.png");
+  background-size: cover;
+}
+
+.r5{
+  background-image: url("/images/d5.png");
+  background-size: cover;
+}
+
+.r6{
+  background-image: url("/images/d6.png");
+  background-size: cover;
+}

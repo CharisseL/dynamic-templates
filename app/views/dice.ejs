@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Roll Dice..7/11...7/11...</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/rolldice.css">
+  </head>
+  <body>
+    <div>
+      <table>
+        <tbody>
+          <% for(var i = 0; i<= row; i++) { %>
+            <tr>
+              <% var len = rolls.length < 10 ? rolls.length : 10 %>
+              <% for(var d = 0; d < length; d++) { %>
+                <td class="r<%=rolls.splice(0,1)[0]%>"></td>
+              <% } %>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

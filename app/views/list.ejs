@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title> List</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css.style2.css">
+  </head>
+  <body>
+    <h1>Sumlist</h1>
+    <table>
+      <% for(var i=0; i<nums.length; i++) { %>
+      <% var color = (nums[i]%2) ? odd : even %>
+        <tr>
+          <td style="color:<%=color%>">
+            <%=nums[i]%>
+          </td>
+        </tr>
+      <% } %>
+      <tr>
+        <td><%=sum%></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
